@@ -1,0 +1,159 @@
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+#f{grid-area: f1;}
+body{
+    background-image:url("https://thumbs.dreamstime.com/b/castles-pattern-medieval-historical-buildings-towers-textile-design-projects-template-recent-vector-seamless-background-231830645.jpg");
+    background-size: cover;
+}
+#maindiv{
+     background-image:linear-gradient(120deg,rgba(253, 217, 149, 0.603),rgba(255, 174, 174, 0.568),rgba(182, 253, 182, 0.603),rgba(255, 255, 255, 0.603),rgba(255, 255, 132, 0.603),#ff98989a,rgb(255, 201, 255),rgba(255, 99, 99, 0.548)); 
+    background-size: cover;
+ }
+#maindiv{ 
+    display: grid;
+    grid-template-areas: 'a1 a1 b1 b1'
+    'c1 c1 d1 d1'
+    'e1 e1 f1 f1';
+    font-size:20px;
+    text-align:center;
+    padding:20px;  
+    height:1250px;
+    width:790px;
+    border-color:burlywood;
+    border-style:dotted;
+    background-color:rgba(247, 228, 201, 0.705);
+}
+div{
+   border-color: black;
+    padding:20px;
+    margin:20px;
+    margin-left:10px;
+    margin-right:10px;
+    border-style: inset;
+}
+h3{
+    position:sticky;
+    margin-top:-10px;
+    color:white;
+}
+p{
+    position:static;
+    top:50px;
+    color:white;
+    font-size:14px;
+}
+#a{
+   border-radius:20px;
+   width:300px;
+   height:300px;
+   background-image:url("https://images.pexels.com/photos/7433983/pexels-photo-7433983.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-size:cover;
+   margin-left:15px;
+}
+#b{
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-image:url("https://images.pexels.com/photos/16576182/pexels-photo-16576182/free-photo-of-bibi-ka-maqbara-in-india.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size:cover;
+    position:absolute;
+    left:450px;
+ }
+ #c{
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-image:url("https://www.tripsavvy.com/thmb/DYmN56n-SyGV0NNIVHpb7O-evNA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-469788052-4010d53537c64802a437ad24bd0f1345.jpg");
+    background-size:cover;
+    position:absolute;
+    margin-left:15px;
+    top:480px;
+ }
+ #d{
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-image:url("https://media-cdn.tripadvisor.com/media/photo-s/11/f4/ff/11/charminar.jpg");
+    background-size:cover;
+    position:absolute;
+    left:450px;
+    top:480px;
+ }
+ #e{
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-image:url("https://www.worldinprint.com/p/191/chhatrapati-shivaji-terminus-1164738.jpg.webp");
+    background-size:cover;
+    position:absolute;
+    margin-left:15px;
+    top:900px;
+ }
+ #f{
+    border-radius:20px;
+    width:300px;
+    height:300px;
+    background-image:url("https://www.timesindiatravels.com/wp-content/uploads/2017/09/Indias-Top-Destinations-Khajuraho.jpg");
+    background-size:cover;
+    position:absolute;
+    margin-left:430px;
+    top:900px;
+ }
+ .container{
+    position:absolute;
+    right: 10px;
+    font-size:28px;
+    top:390px;
+    color:transparent;
+ }
+ .container::before{
+    content: attr(data-text);
+    background-image:linear-gradient(120deg,black,brown,rgb(17, 8, 8));
+    -webkit-background-clip:text;
+    background-clip:text;
+ }
+ 
+ .ig{
+   position:absolute;
+   bottom:-770px;
+   left:980px;
+   font-size:25px;
+   color:lightseagreen;
+   }
+   .p{
+    position:absolute;
+    bottom:-795px;
+    left:900px;
+    font-size:25px;
+   }
+   .t{
+    position:absolute;
+    bottom:-765px;
+    left:1020px;
+   }
+   .m{
+    left:0px;
+    bottom:10px;
+    color:white;
+    padding: 5px;
+    size: 20px;
+   }
+   footer{
+    background-image:linear-gradient(120deg,rgba(75, 10, 10, 0.541),rgb(82, 13, 13),rgba(160, 160, 57, 0.438));
+    height:200px;
+    position:static;
+    margin-bottom:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+   }
+.wrapper{
+   color:white;
+   text-align:center;
+   font-size:14px;
+   font-family: cursive;
+   padding:5px;
+
+}
